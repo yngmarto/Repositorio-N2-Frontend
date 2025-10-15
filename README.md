@@ -1,34 +1,16 @@
-# GameStore - Tienda de Videojuegos
+#De que se trata este proyecto -Tienda de juegos Online -En modo admin
 
-Una aplicación web moderna desarrollada con React y Vite para la venta de videojuegos.
+#como iniciar el proyecto -Una vez descargamos el proyecto Repositorio-N1-Frontend-main -Extraemos el rar y abrimos la carpeta Visual Estudio Code -abrir una terminal Command Prompt
 
-## Características
+ejecutar el siguiente codigo: npm install para rellenar la carpeta node_modules
+ejecutar el siguiente codigo: npm run dev para poder visualizarlo con localhost
+saltara el siguiente mensaje:
+###########################################
 
-- 🎮 Catálogo de videojuegos con imágenes y descripciones
-- 🛒 Carrito de compras funcional
-- ➕ Agregar nuevos videojuegos al catálogo
-- ✏️ Editar información de videojuegos existentes
-- 🗑️ Eliminar videojuegos del catálogo
-- 🎨 Diseño moderno con tema gaming
+my-app@0.0.0 dev vite
 
-## Tecnologías Utilizadas
+VITE v7.1.2 ready in 223 ms
 
-- React 19
-- Vite
-- Material-UI (MUI)
-- React Router DOM
-- CSS3 con gradientes y animaciones
+➜ Local: http://localhost:5173/ #Damos ctrl+ click en esta URL para llevarnos al Frontend ➜ Network: use --host to expose ➜ press h + enter to show help ###########################################
 
-## Instalación
-
-```bash
-npm install
-npm run dev
-```
-
-## Funcionalidades
-
-- **Catálogo Principal**: Visualiza todos los videojuegos disponibles
-- **Gestión de Productos**: Agrega, edita y elimina videojuegos
-- **Carrito de Compras**: Interfaz para gestionar compras
-- **Diseño Responsivo**: Adaptable a diferentes tamaños de pantalla 
+#Una vez cumplidos los pasos podremos visualizar nuestro proyecto sin errores para volver a trabajar :c
