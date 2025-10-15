@@ -1,0 +1,132 @@
+body{
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  min-height: 100vh;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Estilos para la tienda de videojuegos */
+.contenedor_producto_1 {
+  background: linear-gradient(145deg, #2c3e50, #34495e);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  border: 2px solid #3498db;
+  min-height: 400px;
+  display: flex;
+}
+
+.contenedor_producto_1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(52, 152, 219, 0.4);
+}
+
+.contenedor_producto_1 h2 {
+  color: #ecf0f1;
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.contenedor_producto_1 h3 {
+  color: #3498db;
+  font-weight: bold;
+  margin: 5px 0;
+  font-size: 1.2em;
+}
+
+.contenedor_producto_1 p {
+  color: #ecf0f1;
+  padding: 0 15px;
+  line-height: 1.4;
+}
+
+.contenedor_producto_1 img {
+  border-radius: 10px 0 0 10px;
+  object-fit: cover;
+}
+
+/* Título principal */
+h1 {
+  color: #ecf0f1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  font-size: 3em;
+  font-weight: bold;
+  font-family: 'Orbitron', 'Arial Black', sans-serif;
+  letter-spacing: 2px;
+  background: linear-gradient(45deg, #3498db, #e74c3c, #f39c12, #2ecc71);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 3s ease-in-out infinite;
+  transform: perspective(500px) rotateX(15deg);
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Botones de acción */
+.MuiIconButton-root {
+  background: rgba(52, 152, 219, 0.2);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+.MuiIconButton-root:hover {
+  background: rgba(52, 152, 219, 0.4);
+  transform: scale(1.1);
+}
